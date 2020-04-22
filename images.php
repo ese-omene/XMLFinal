@@ -19,7 +19,7 @@
 
 <body>
 <div class="jumbotron">
-    <h1 class="display-4">LET'S Photo Galary RUN</h1>
+    <h1 class="display-4">LET'S RUN</h1>
     <p class="lead">Let's go Back to a Time When We Would Run Outside</p>
     <hr class="my-4">
     <p>Join me on a visual journey throough some of my favorite parks and trails run</p>
