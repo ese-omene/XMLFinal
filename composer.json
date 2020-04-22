@@ -1,0 +1,8 @@
+{
+  "name" : "XMLFinal Project",
+  "require": {
+    "php" : ">=7.0.0",
+    "google/apiclient": "~2.0",
+    "jwilsson/spotify-web-api-php": "^3.3"
+  }
+}
