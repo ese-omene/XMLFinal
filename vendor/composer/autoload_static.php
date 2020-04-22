@@ -22,6 +22,10 @@ class ComposerStaticInitac3c91dfc4d86364fd969282584a1a70
         array (
             'phpseclib\\' => 10,
         ),
+        'U' => 
+        array (
+            'Unsplash\\OAuth2\\Client\\' => 23,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php72\\' => 23,
@@ -39,6 +43,10 @@ class ComposerStaticInitac3c91dfc4d86364fd969282584a1a70
         array (
             'Monolog\\' => 8,
         ),
+        'L' => 
+        array (
+            'League\\OAuth2\\Client\\' => 21,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -50,12 +58,20 @@ class ComposerStaticInitac3c91dfc4d86364fd969282584a1a70
         array (
             'Firebase\\JWT\\' => 13,
         ),
+        'C' => 
+        array (
+            'Crew\\Unsplash\\' => 14,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'phpseclib\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
+        ),
+        'Unsplash\\OAuth2\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hughbertd/oauth2-unsplash/src',
         ),
         'Symfony\\Polyfill\\Php72\\' => 
         array (
@@ -89,6 +105,10 @@ class ComposerStaticInitac3c91dfc4d86364fd969282584a1a70
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
+        'League\\OAuth2\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/oauth2-client/src',
+        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
@@ -108,6 +128,10 @@ class ComposerStaticInitac3c91dfc4d86364fd969282584a1a70
         'Firebase\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
+        ),
+        'Crew\\Unsplash\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/unsplash/unsplash/src',
         ),
     );
 
