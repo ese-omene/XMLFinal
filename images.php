@@ -22,7 +22,7 @@
     <h1 class="display-4">LET'S RUN</h1>
     <p class="lead">Let's go Back to a Time When We Would Run Outside</p>
     <hr class="my-4">
-    <p>Join me on a visual journey throough some of my favorite parks and trails run</p>
+    <p>Join me on a visual journey through some of my favorite parks and trails run</p>
     <p>It Might be cold out and covid got your trapped inside, so take some time to enjoy the sites</p>
     <p>Enter your favorite city below!</p>
     <form action="images.php" method="get" id="location">
@@ -42,7 +42,7 @@
     ]);
    // var_dump($_GET);
     if(!empty($_GET['location'])) {
-        $search = $_GET['location'].'';
+        $search = $_GET['location'].'-parks';
         //echo 'a';
         $page = 1;
         $per_page = 5;
